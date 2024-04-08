@@ -14,10 +14,10 @@ public class Console extends Produto {
     }
 
     public void mostraInfo(){
-        System.out.println("Nome :"+ getNome());
+        super.mostraInfo();
         System.out.println("Geração: "+ this.geracao);
         System.out.println("Marca: "+ this.marca);
-        System.out.println("Preco: " +getPreco());
+        
     }
 
 
